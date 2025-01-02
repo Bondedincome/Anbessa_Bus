@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "462286066827",
+    "project_id": "anbessa-bus-tracker",
+    "storage_bucket": "anbessa-bus-tracker.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462286066827:android:3624402f5b48d19434b08e",
+        "android_client_info": {
+          "package_name": "com.example.anbessabus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJjzt8DxnyuBCa8_2qqeEf-bKnfS_sin8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

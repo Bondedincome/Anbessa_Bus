@@ -1,0 +1,20 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:angle="270"
+        android:startColor="#FF9F55"
+        android:centerColor="@color/anbessa_bus_icon_launcher_background"
+        android:endColor="#FFFF"
+        android:type="linear" />
+
+    <corners
+        android:topLeftRadius="0dp"
+        android:bottomLeftRadius="0dp"
+        android:topRightRadius="25dp"
+        android:bottomRightRadius="25dp" />
+    <padding
+        android:left="0dp"
+        android:top="10dp"
+        android:right="10dp"
+        android:bottom="10dp" />
+</shape>
+
