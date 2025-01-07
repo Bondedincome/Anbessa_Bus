@@ -23,8 +23,8 @@ class SignupActivity : AppCompatActivity() {
 
         // Set up signup button listener
         binding.signupButton.setOnClickListener {
-            val email = binding.emailInput.text.toString().trim()
-            val password = binding.passwordInput.text.toString().trim()
+            val email = binding.signupEmailInput.text.toString().trim()
+            val password = binding.signupPasswordInput.text.toString().trim()
 
             if (email.isEmpty() || password.isEmpty()) {
                 Toast.makeText(this, "Please fill out all fields", Toast.LENGTH_SHORT).show()
