@@ -1,0 +1,171 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit Complaint"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Reason of Complaint Dropdown -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reason of Complaint"
+            android:layout_marginBottom="8dp" />
+
+        <Spinner
+            android:id="@+id/spinner_reason_of_complaint"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Bus Number Dropdown -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bus Number"
+            android:layout_marginBottom="8dp" />
+
+        <Spinner
+            android:id="@+id/spinner_bus_number"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Sub-city Radio Buttons -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sub-city"
+            android:layout_marginBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_sub_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:id="@+id/radio_sub_city_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Addis Ketema" />
+
+            <RadioButton
+                android:id="@+id/radio_sub_city_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Akaki Kaliti" />
+
+            <RadioButton
+                android:id="@+id/radio_sub_city_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Arada" />
+
+            <RadioButton
+                android:id="@+id/radio_sub_city_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bole" />
+
+        </RadioGroup>
+
+
+        <RadioGroup
+            android:id="@+id/radio_group_sub_city_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:id="@+id/radio_sub_city_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gullele" />
+
+            <RadioButton
+                android:id="@+id/radio_sub_city_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kirkos" />
+
+            <RadioButton
+                android:id="@+id/radio_sub_city_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kolfe Keranio" />
+
+            <RadioButton
+                android:id="@+id/radio_sub_city_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ledeta" />
+
+            </RadioGroup>
+        <RadioGroup
+            android:id="@+id/radio_group_sub_city_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:id="@+id/radio_sub_city_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nifas Silk Lafto" />
+
+            <RadioButton
+                android:id="@+id/radio_sub_city_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yeka" />
+
+            <RadioButton
+                android:id="@+id/radio_sub_city_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lemi Kura" />
+
+        </RadioGroup>
+
+
+        <!-- Station Dropdown -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Station"
+            android:layout_marginBottom="8dp" />
+
+        <Spinner
+            android:id="@+id/spinner_station"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btn_submit_complaint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:backgroundTint="@color/orange"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</ScrollView>
